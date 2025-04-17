@@ -1,0 +1,89 @@
+#fe-widget {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 90%;
+  max-width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  z-index: 10000;
+}
+
+.fe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fe-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.fe-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.fe-body {
+  margin-top: 10px;
+}
+
+.fe-progress-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.fe-progress-bar {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.fe-progress-fill {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+.fe-status {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.fe-status.green {
+  background-color: #28a745;
+}
+
+.fe-status.red {
+  background-color: #dc3545;
+}
+
+#fe-toggle-btn {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  z-index: 10001;
+  padding: 8px 14px;
+  font-size: 14px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
